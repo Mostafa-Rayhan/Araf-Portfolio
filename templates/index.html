@@ -415,15 +415,15 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4><a href="">Graphic-design</a></h4>
-              <p>Unic Design Idea.High Quality & great skill &we know how to happy our clint.</p>
+              <p>Unique Design Idea.High Quality & great skill &we know how to happy our clint.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Web devolopment</a></h4>
-              <p>Unic website devolop.Great coding skill & we know how to happy our clint..</p>
+            <h4><a href="">Web development</a></h4>
+              <p>Unique website develop.Great coding skill & we know how to happy our clint..</p>
           </div>
         </div>
 
@@ -431,7 +431,7 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bx-world"></i></div>
             <h4><a href="">Data-entry</a></h4>
-              <p>Sequre your data.Excel sheet database and we know how to happy our clint.</p>
+              <p>Square your data.Excel sheet database and we know how to happy our clint.</p>
           </div>
         </div>
 
@@ -479,530 +479,55 @@
       <div class="row portfolio-container">
 
 
-        {% for all in alls %}
+        {% for photoshop in photoshops %}
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="{{ all.image.url }}" class="img-fluid" alt="">
+            <img src="{{ photoshop.image.url }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>{{ all.name }}</p>
+              <h4>{{ photoshop.category }}</h4>
+              <p>{{ photoshop.name }}</p>
               <div class="portfolio-links">
-                <a href="{{ all.image.url }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="{{ photoshop.image.url }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
         {% endfor %}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/6.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/8.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/9.png" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/10.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/11.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/12.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/13.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/14.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/15.png" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/15.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/16.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/16.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/17.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#     #}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/18.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/18.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/19.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/19.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/20.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/20.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/21.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/21.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/22.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/22.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/23.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/23.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/24.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/24.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/25.jpg" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/25.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/26.png" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/26.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/portfolio-1.JPG" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 1</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-web">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>Web 3</h4>#}
-{#              <p>Web</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
-{##}
-{#        <div class="col-lg-4 col-md-6 portfolio-item filter-app">#}
-{#          <div class="portfolio-wrap">#}
-{#            <img src="assets/img/portfolio/portfolio-3.JPG" class="img-fluid" alt="">#}
-{#            <div class="portfolio-info">#}
-{#              <h4>App 2</h4>#}
-{#              <p>App</p>#}
-{#              <div class="portfolio-links">#}
-{#                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>#}
-{#                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{#        </div>#}
 
+
+        {% for art in arts %}
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="{{ art.image.url }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
+              <h4>{{ art.category }}</h4>
+              <p>{{ art.name }}</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="{{ art.image.url }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
+        {% endfor %}
 
+        {% for web in webs %}
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <img src="{{ web.image.url }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
+              <h4>{{ web.category }}</h4>
+              <p>{{ web.name }}</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="{{ web.image.url }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
+        {% endfor %}
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>
 
@@ -1058,20 +583,21 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="" method="post" class="php-email-form mt-4">
+        {% csrf_token %}
         <div class="row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
           </div>
           <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
           </div>
         </div>
         <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
         </div>
         <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
         </div>
         <div class="my-3">
           <div class="loading">Loading</div>
